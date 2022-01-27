@@ -1,0 +1,97 @@
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0; 
+}
+
+.location iframe{
+    width: 100%;
+}
+h1{
+    /* align-items: center; */
+    margin-left: 680px;
+    margin-bottom: 30px;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 58%;
+    margin-bottom: 10px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    padding-bottom: 1px;
+}
+
+.contact-col div .fa{
+    font-size: 28px;
+    color:#f44336;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.contact-col div p{
+    padding: 0;
+    color:#555;
+}
+
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:black;
+    font-weight: 400;
+}
+.contact-col{
+    margin-left: 250px;
+    /* margin-top:10px; */
+    margin-right: 200px;
+  
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+
+}
+button{
+    color:white;
+    background-color: rgb(53, 53, 216);
+    border-radius: 8px;
+    size: 15px;
+    /* width: 10px; */
+    height: 40px;
+    /* margin-left: 2px; */
+}
+/* 
+@media (min-width: 451){
+    h1{
+        margin-left: 417px;
+    margin-bottom: 30px;
+    }
+} */
+
+
+
+
+
+/* @media (min-width: 768px) {
+    .main-header__nav {
+        display: flex;
+    }
+    #side-menu-toggle {
+        display: none;
+    }
+    .user-message {
+        width: 30rem;
+    }
+} */
